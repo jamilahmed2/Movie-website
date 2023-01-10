@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jimmiflix | www.jimmiflix.com</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="assests/css/main.css">
+    <link rel="stylesheet" href="assests/css/media_query.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"/>
+</head>
+<body>
+    
+ <!-- ==================
+    |   main container |
+    ================-->
+
+<div class="container">
+   
+    <!-- ============
+    |   header |
+    ============ -->
+    <header class="">
+        <div class="navbar">
+            <button class="navbar-menu-btn ">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </button>
+
+            <a href="" class="navbar-brand">
+                <img src="./assests/images/logo.png" alt="">
+            </a>
+
+            <!-- navbar navigation -->
+
+            <nav class="">
+                <ul class="navbar-nav">
+                    <li><a href="#" class="navbar-link">Home</a></li>
+                    <li><a href="#category" class="navbar-link">Category</a></li>
+                    <li><a href="#live" class="navbar-link indicator">Live</a></li>
+                </ul>
+            </nav>
+
+            <!-- search and sign-in -->
+            <div class="navbar-actions">
+
+                <form action="#" class="navbar-form ">
+                    <input type="text" name="search" placeholder="I'm Looking For ..." 
+                    class="navbar-form-search">
+                    <button class="navbar-form-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    
+                    <button class="navbar-form-close">
+                        <ion-icon name="close-circle-outline"></ion-icon
+                     </button>
+                </form>
+
+                <!-- search button for small screens -->
+                <button class="navbar-search-btn">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+               
+
+                <!-- sign-in -->
+                <a href="#" class="navbar-signin">
+                    <span>Sign in</span>
+                    <ion-icon name="log-in-outline"></ion-icon>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+
+  
+    <!-- ============
+    |   Main Sections |
+    ============ -->
+
+    <main>
+
+        <!-- ============
+    |   Banner |
+         ============ -->
+        <section class="banner">
+            <div class="banner-card">
+
+                <img src="assests/images/series/John-Wick-3.jpg" 
+                class="banner-img" alt="">
+
+                <div class="card-content">
+                    <div class="card-info">
+
+                        <div class="genre">
+                            <ion-icon name="film"></ion-icon>
+                            <span>Action/Advanture</span>
+                        </div>
+
+                        <div class="year">
+                            <ion-icon name="calendar"></ion-icon>
+                            <span>2013</span>
+                        </div>
+
+                        <div class="duration">
+                            <ion-icon name="time"></ion-icon>
+                            <span>2h11m</span>
+                        </div>
+
+                        <div class="quality">HD</div>
+
+                    </div>
+
+                    <h2 class="card-title">John Wick 3: All Chapter 3 - Parabellum</h2>
+
+                </div>
+
+            </div>
+        </section>
+
+
+         <!-- ============
+    |     movies section |
+         ============ -->
+        <section class="movies">
+
+            <!-- filter bar -->
+            <div class="filter-bar">
+
+                <div class="filter-dropdowns">
+
+                    <select name="genre"  class="genre">
+                        <option value="all genres">All genres</option>
+                        <option value="action">Action</option>
+                        <option value="advanture">Advanture</option>
+                        <option value="animation">Animation</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="horror">Horror</option>
+                    </select>
+                    
+                    <select name="year"  class="year">
+                        <option value="all year">All the years</option>
+                        <option value="2022">2022</option>
+                        <option value="2020-2021">2020-2021</option>
+                        <option value="2010-2019">2010-2019</option>
+                        <option value="2000-2009">2000-2009</option>
+                        <option value="1988-1999">1988-1999</option>
+                    </select>
+
+                </div>
+
+                <div class="filter-radios">
+
+                    <input type="radio" name="grade" id="featured" checked>
+                    <label for="featured">Featured</label>
+                    
+                    <input type="radio" name="grade" id="popular">
+                    <label for="popular">Popular</label>
+                    
+                    <input type="radio" name="grade" id="newest">
+                    <label for="newest">Newest</label>
+
+                    <div class="checked-radio-bg"></div>
+                </div>
+
+            </div>
+
+            <!-- movies grid -->
+
+            <div class="movies-grid">
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/12strong.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">12 Strong</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="movie-card">
+
+                    <div class="card-head">
+                        <img src="./assests/images/movies/red-notice.jpg" 
+                        alt="" class="card-img">
+
+                        <div class="card-overlay">
+
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <div class="play">
+                                <ion-icon name="play-circle-outline"></ion-icon>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Red Notice</h3>
+
+                        <div class="card-info">
+                            <span class="genre">Action/Comedy</span>
+                            <span class="year">2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- load more button -->
+            <button class="load-more">Load More</button>
+        </section>
+
+
+
+
+    <!-- ================
+    |   Category section |
+    ================== -->
+    <section class="category" id="category">
+
+        <h2 class="section-heading">Category</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <img src="/assests/images/category/action.jpg" alt="" class="card-img">
+                <div class="name">Action</div>
+                <div class="total">100</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/comedy.jpg" alt="" class="card-img">
+                <div class="name">Comedy</div>
+                <div class="total">50</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/thriller.webp" alt="" class="card-img">
+                <div class="name">Thriller</div>
+                <div class="total">20</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/horror.jpg" alt="" class="card-img">
+                <div class="name">Horror</div>
+                <div class="total">80</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/adventure.jpg" alt="" class="card-img">
+                <div class="name">Advanture</div>
+                <div class="total">100</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/animated.jpg" alt="" class="card-img">
+                <div class="name">Animated</div>
+                <div class="total">50</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/crime.jpg" alt="" class="card-img">
+                <div class="name">Crime</div>
+                <div class="total">20</div>
+            </div>
+
+            <div class="category-card">
+                <img src="/assests/images/category/sci-fi.jpg" alt="" class="card-img">
+                <div class="name">SCI-FI</div>
+                <div class="total">80</div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================
+    |   Live section |
+    ================== -->
+
+        <section id="live" class="live">
+
+            <h2 class="section-heading">Live Show</h2>
+
+            <div class="live-grid">
+
+                <div class="live-card">
+
+                    <div class="card-head">
+                        <img src="assests/images/series/breakingbad.jpeg" alt="" 
+                        class="card-img">
+                        <div class="live-badge">LIVE</div>
+                        <div class="total-viewers">305k Viewers</div>
+                        <div class="play">
+                            <ion-icon name="play-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="assests/images/live/bbcamerica.jpg" alt=""
+                         class="avator">
+                        <h3 class="card-title">Breaking Bad: <br>Season 1 - EP-3</h3>
+                    </div>
+
+                </div>
+
+                <div class="live-card">
+
+                    <div class="card-head">
+                        <img src="assests/images/series/got.jpg" alt="" 
+                        class="card-img">
+                        <div class="live-badge">LIVE</div>
+                        <div class="total-viewers">50k Viewers</div>
+                        <div class="play">
+                            <ion-icon name="play-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="assests/images/live/bbcamerica.jpg" alt=""
+                         class="avator">
+                        <h3 class="card-title">Game of Thrones: <br>Season 4 - EP-5</h3>
+                    </div>
+
+                </div>
+
+                <div class="live-card">
+
+                    <div class="card-head">
+                        <img src="assests/images/series/vikings.jpeg" alt="" 
+                        class="card-img">
+                        <div class="live-badge">LIVE</div>
+                        <div class="total-viewers">30k Viewers</div>
+                        <div class="play">
+                            <ion-icon name="play-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="assests/images/live/bbcamerica.jpg" alt=""
+                         class="avator">
+                        <h3 class="card-title">Vikings: <br>Season 1 - EP-1</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <!-- ================
+    |   Footer section |
+    ================== -->
+
+        <footer>
+            
+            <div class="footer-content">
+
+                <div class="footer-brand">
+                    <img src="assests/images/logo.png" alt=""
+                    class="footer-logo">
+                    <p class="slogan">Movies & Tv Shows, Online Cinema.</p>
+
+                    <div class="social-link">
+
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-links">
+                    <ul>
+
+                        <h4 class="link-heading">jimmiflix2</h4>
+
+                        <li class="link-item"><a href="#">My Profile</a></li>
+                        <li class="link-item"><a href="#">Privacy Policy</a></li>
+                        <li class="link-item"><a href="#">About us</a></li>
+                        <li class="link-item"><a href="#">Contacts</a></li>
+
+                    </ul>
+
+                    <ul>
+
+                        <h4 class="link-heading">Browse</h4>
+
+                        <li class="link-item"><a href="#">Live TV</a></li>
+                        <li class="link-item"><a href="#">Live News</a></li>
+                        <li class="link-item"><a href="#">Live Sports</a></li>
+                        <li class="link-item"><a href="#">Streaming Library</a></li>
+
+                    </ul>
+
+                    <ul>
+
+                        <li class="link-item"><a href="#">Tv Show</a></li>
+                        <li class="link-item"><a href="#">Movies</a></li>
+                        <li class="link-item"><a href="#">Kids</a></li>
+                        <li class="link-item"><a href="#">Collection</a></li>
+
+                    </ul>
+
+                    <ul>
+
+                        <h4 class="link-heading">Help</h4>
+
+                        <li class="link-item"><a href="#">Account & Billing</a></li>
+                        <li class="link-item"><a href="#">Plans & Pricing</a></li>
+                        <li class="link-item"><a href="#">Supported devices</a></li>
+                        <li class="link-item"><a href="#">Accessiblity</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+
+                <div class="copyright">
+                    &copy; Copyright 2022 jimmiflix2
+                </div>
+
+                <div class="wrapper"></div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+
+            </div>
+
+        </footer>
+
+</div>
+
+
+    <!-- custom js -->
+    <script src="./assests/js/main.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

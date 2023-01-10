@@ -1,0 +1,35 @@
+/* all global variables */
+:root{
+        /* colors */
+
+        --live-indicator-shadow: hsl(10, 79%, 63%, 0.5);
+        --rich-black-fogra-30: hsl(29, 32%, 10%);
+        --rich-black-fogra-29: hsl(22, 25%, 10%);
+        --live-indicator: hsl(10, 79%, 63%);
+        --oxford-blue-50: hsla(1, 79%, 63%, 0.8);
+        --oxford-blue: hsl(1, 79%, 63%,0.2);
+        --light-azure: hsl(24, 84%, 56%);
+        --off-white: hsl(0, 8%, 88%);
+        --yellow: hsl(415, 100%, 54%);
+        --white: hsl(0,0%,100%);
+        --azure: hsl(21,100%,50%);
+       /* --indian-orange: #ff7722; */
+
+    /* typoragpy */
+    --ff-inter: "Inter", sans-serif;
+    
+    --section-heading: 40px;
+    --fs-lg: 22px
+    --fs-md: 17px;
+    --fs-sm: 14px;
+    --fs-x-sm: 12px;
+    
+    --fw-7:700;
+    --fw-6:600;
+    --fw-5:500;
+    
+    /* spacing */
+    --px: 120px;
+
+}
+/* variables */
